@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 1085px) {
+  nav ul li a { padding: 0px 7px; }
+}
+
+@media only screen and (max-width: 1000px) {
+  html, body { user-select: none; }
+  header { padding: 0px; }
+  .header_left { padding-left: 10px; }
+  .header_right { }
+  nav { min-height: auto; background: rgb(227, 76, 84); }
+  nav ul { display: block; }
+  nav ul li { margin-right: 0px; margin-bottom: 4px; padding-top: 0px; display: inline-block; }
+  nav { padding: 4px 4px 0px; }
+  nav ul li::after { content: ""; }
+  nav ul li { width: 33%; }
+  nav ul li a { border-radius: 0px; border: 1px solid rgb(0, 0, 0); background: rgb(237, 27, 38); line-height: 40px !important; padding: 0px !important; height: auto !important; }
+  nav ul li a:hover, nav ul li.current_page_item a { background: rgb(254, 202, 22); }
+  nav ul li a small { display: inline; }
+  #banner { overflow: hidden; background: rgb(3, 73, 132); min-height: auto; padding: 10px; }
+  .banner_left { float: none; margin: 0px auto; padding: 15px; background: rgb(7, 55, 96); width: 100%; max-width: 400px; position: relative; }
+  .banner_left h2 { text-align: center; }
+  #letters { margin: 0px auto; width: 100%; text-align: center; }
+  #prices { margin: 0px auto; }
+  .videoz { margin: 0px auto; text-align: center; }
+  .banner_left h2 span { font-size: 70px; }
+  .banner_left h2 small { padding: 0px; }
+  .banner_right { left: auto; background: rgb(7, 55, 96); max-width: 777px; padding: 10px; float: none; margin: 20px auto 0px; }
+  #mid { background-image: none; min-height: 0px; padding: 10px; overflow: hidden; }
+  .mid_box { margin-bottom: 20px !important; }
+  #mid h2 { margin-bottom: 12px; }
+  .mid_box.third { margin-bottom: 0px !important; }
+  #mid2 { background: rgb(222, 222, 222); text-align: center; padding: 10px 0px 0px; overflow: hidden; }
+  .midbox2.f-left { background: rgb(210, 21, 28); width: 50%; padding: 10px; min-height: 303px; }
+  .midbox2.f-right { background: rgb(0, 70, 129); width: 50%; padding: 10px; min-height: 303px; }
+  .midlogo { position: relative; top: auto; margin-bottom: 10px; }
+  #main { padding: 10px; }
+  #col-a { float: none; width: 100%; padding-top: 20px; overflow: hidden; }
+  #col-a::after { content: ""; }
+  #col-b { float: none; width: 100%; padding: 0px; }
+  .sidebar-menu { float: left; width: 49%; min-height: 100%; }
+  .testimonials { float: right; width: 49%; background: rgb(15, 111, 195); }
+  .payment { width: 49%; min-height: 100%; background-image: none; margin: 0px auto 19px; clear: both; }
+  .sidebar-menu h2 { margin-bottom: 15px; }
+  .visitorCounter { float: none; display: block; width: 100%; clear: both; text-align: center; }
+  .visitorCounter span { padding: 0px; margin-right: 60px; }
+  .visitorCounter small { padding: 0px; }
+  .sidebar-menu ul li a { background: rgb(237, 27, 38); }
+  .sidebar-menu ul li a:hover, .sidebar-menu ul li.current_page_item a { background: rgb(0, 70, 130); }
+  footer { background-image: none; min-height: auto; text-align: center; }
+  footer h2 { text-align: center; }
+  .footer-up .wrapper { padding: 0px; }
+  footer { background-color: rgb(4, 74, 133); }
+  .footer-up { background-image: none; padding: 10px; }
+  .footer-down { min-height: auto; padding: 0px; }
+  footer h2::after { left: 0px; right: 0px; margin: 0px auto; }
+  .footer-right { padding: 0px; max-width: 100%; text-align: center; float: none; }
+  .contact { width: 100%; max-width: 375px; text-align: left; margin: 0px auto; float: none; }
+  .nav_footer { margin-top: 20px; }
+  .nav_footer ul li { width: 32% !important; margin: 0px 0px 5px !important; }
+  .nav_footer ul li a { background: rgb(5, 50, 87); line-height: 35px; text-align: left; padding: 0px 0px 0px 10px !important; }
+  .nav_footer ul li a::after { content: "" !important; }
+  .nav_footer ul { text-align: center; }
+  .footer-box { background: rgb(247, 247, 247); padding: 20px; max-width: 360px; width: 100%; min-height: 273px; margin: auto auto 15px !important; }
+  .social { bottom: 0px; left: auto; padding: 10px 0px 5px; }
+  .nav_footer { float: none; width: 100%; }
+  #copyright { width: 100%; text-align: center; padding: 15px 0px; background: rgb(237, 27, 38); }
+  .footer-logo { float: none; width: 100%; text-align: center; }
+}
+
+@media only screen and (max-width: 980px) {
+  header { background: rgb(255, 255, 255); padding: 10px 0px; }
+  #aha { position: relative; left: auto; right: auto; top: 0px; }
+  .header_left { float: none; width: 100%; text-align: center; padding: 0px; }
+  .header_right { float: none; width: 100%; text-align: center; padding: 0px; }
+  .header_right::after { content: ""; }
+  .header_right .callbtn { float: none; margin: 10px auto; }
+  .header_right h2::after { content: ""; }
+  .header_right h2 { background: rgb(2, 74, 133); }
+  #logo { left: 0px; margin: 0px auto; }
+  .comment-form input[type="submit"] { width: 30%; }
+}
+
+@media only screen and (max-width: 805px) {
+  nav ul li { width: 49%; }
+  .nav_footer ul li { width: 49% !important; }
+}
+
+@media only screen and (max-width: 768px) {
+  nav span { display: block; }
+}
+
+@media only screen and (max-width: 690px) {
+  .midbox2 { float: none; width: 100% !important; min-height: auto !important; }
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonials { width: 100%; float: none; min-height: auto; }
+  .testimonials a { margin: 20px auto 0px; text-align: left; }
+  .testimonials h2::after { content: ""; }
+  .payment { max-width: 300px; width: 100%; margin: 0px auto 15px; float: none; }
+  .sidebar-menu { width: 100%; float: none; }
+  nav { border-top: 0px; }
+  .nav-toggle-button, nav li, nav li span { display: block; }
+  nav { display: none; }
+  nav ul li { width: 100%; }
+  .banner_left h2 span { font-size: 45px; line-height: 40px; }
+  #mid { padding: 10px; }
+  .mid_box { width: 100%; max-width: 300px; margin-right: 0px !important; }
+  .mid_box.second { margin-left: 0px; margin-right: 0px; }
+  .midbox2 h2 { font-size: 31px; }
+  .midbox2 p { font-size: 16px; }
+  .banner_right { display: none; }
+  .testimonials { text-align: center; padding: 10px; }
+  .testimonials::after { content: ""; }
+  .testimonials p { padding: 0px; }
+  .col_2 { column-count: 1; }
+  .thumb { float: none; display: block; margin: 0px auto 10px; }
+  .sidebar-menu { width: 100%; margin: 0px auto 15px; float: none; }
+  .sidebar-menu h2 { padding-left: 0px; }
+  .sidebar-menu ul { column-count: 1; padding-left: 0px; }
+  .nav_footer ul li { width: 100% !important; }
+  .nav_footer ul li a { text-align: center; }
+  footer h2::before { content: "" !important; }
+  footer h2 { padding-left: 0px !important; }
+  .footer-box { max-width: 100%; }
+  .contact { padding: 10px; }
+  .contact p { width: 265px; margin: 0px auto; }
+}
+
+@media only screen and (max-width: 590px) {
+  .comment-form label { width: 100%; }
+  .comment-form input { width: 100%; }
+  .comment-form input[type="submit"] { width: 158px; }
+  .comment-form-comment textarea { width: 100%; }
+  .comment-form input[type="submit"] { width: 50%; }
+}
+
+@media only screen and (max-width: 360px) {
+  .banner_left h2, .banner_left h2 small { font-size: 50px; }
+  .comment-form label { display: block; }
+  .comment-form label { display: block; }
+  .comment-form input { width: 100%; }
+  .comment-form input[type="submit"] { width: 50%; }
+  .comment-form-comment textarea { width: 100%; }
+}
